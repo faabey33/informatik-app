@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_thema"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.informatik.lernen.ThemaActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="52dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true">
+
+            <com.baoyachi.stepview.HorizontalStepView
+                android:id="@+id/state_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
